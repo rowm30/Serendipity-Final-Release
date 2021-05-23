@@ -7,7 +7,7 @@
 
     },
     "production":{
-        "PORT":8080,
+        "PORT":"process.env.PORT",
         "MONGODB_URI": "mongodb+srv://rowm30:cartoonm30@cluster0.dmn0v.mongodb.net/MainDB?retryWrites=true&w=majority",
         "JWT_SECRET": "SECRET#123",
         "JWT_EXP": "2m"
